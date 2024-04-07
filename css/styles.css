@@ -254,6 +254,15 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.features-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 32px;
+}
 /* ---------------------------------- */
 /* -------------team ------------*/
 
@@ -310,8 +319,34 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
+.team-link-list {
+  gap: 24px;
+  display: flex;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.team-link-item {
+  width: 40px;
+  height: 40px;
+}
+.team-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.team-icon {
+  fill: white;
+}
+.team-link:hover {
+  background-color: #31d0aa;
+}
 /*-------------------------------- */
 /* ---------- products----------*/
 .product {
@@ -395,4 +430,47 @@ img {
   display: block;
 }
 .logo {
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+  gap: 120px;
+}
+
+.social-links {
+  display: block;
+}
+
+.footer-link-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-list {
+  gap: 24px;
+  display: flex;
+}
+.footer-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  fill: white;
+}
+.footer-link:hover {
+  background-color: #31d0aa;
 }

@@ -509,8 +509,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  text-align: left;
-  gap: 120px;
 }
 
 .footer-logo-text {
